@@ -1,0 +1,11 @@
+name: sklearn-tutorial
+
+dependencies:
+  - anaconda=2.4
+  - python=3.5
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pip:
+    - git+https://github.com/scikit-learn/scikit-learn.git#egg=scikit-learn
