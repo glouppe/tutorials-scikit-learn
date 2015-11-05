@@ -5,6 +5,9 @@ Tutorial on machine learning and Scikit-Learn, presented at Data Science @ LHC o
 - Contact: <a href="https://twitter.com/glouppe">@glouppe</a>
 - BSD 3-clause license
 
+## Launch on Binder without installing anything!
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/glouppe/tutorial-sklearn-dslhc2015)
+
 
 ## Installation instructions
 
@@ -28,5 +31,4 @@ cd tutorial-sklearn-dslhc2015
 jupyter notebook
 ```
 
-## Launch from Binder without installing anything!
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/glouppe/tutorial-sklearn-dslhc2015)
+
