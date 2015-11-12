@@ -9,8 +9,8 @@ def plot_surface(clf, X, y,
     else:
         plt.subplot(*subplot)
         
-    xx, yy = np.meshgrid(np.linspace(*xlim, n_steps), 
-                         np.linspace(*ylim, n_steps))
+    xx, yy = np.meshgrid(np.linspace(xlim[0], xlim[1], n_steps), 
+                         np.linspace(ylim[0], ylim[1], n_steps))
     
     if hasattr(clf, "decision_function"):
         z = clf.decision_function(np.c_[xx.ravel(), yy.ravel()])
