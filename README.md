@@ -12,7 +12,6 @@ Tutorial on machine learning and Scikit-Learn, presented at Data Science @ LHC o
 ## Installation instructions
 
 1) [Download](https://www.continuum.io/downloads) and install the latest Anaconda distribution, coming with Python 3.5 and the full scientific Python stack. 
-```
 
 2) Install dependencies:
 ```
