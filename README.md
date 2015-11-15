@@ -11,20 +11,15 @@ Tutorial on machine learning and Scikit-Learn, presented at Data Science @ LHC o
 
 ## Installation instructions
 
-1) [Download](https://www.continuum.io/downloads) the latest Anaconda distribution, coming with Python 3.5 and the full scientific Python stack. 
-
-2) Install Anaconda:
-```
-bash Anaconda3-2.4.0-MacOSX-x86_64.sh   (for OS X) 
-bash Anaconda3-2.4.0-Linux-x86_64.sh    (for Linux) 
+1) [Download](https://www.continuum.io/downloads) and install the latest Anaconda distribution, coming with Python 3.5 and the full scientific Python stack. 
 ```
 
-3) Install Jupyter notebook:
+2) Install dependencies:
 ```
-conda install jupyter
+conda install numpy scipy scikit-learn jupyter matplotlib 
 ```
 
-4) Clone this repository and start Jupyter
+3) Clone this repository and start Jupyter
 ```
 git clone https://github.com/glouppe/tutorial-sklearn-dslhc2015.git
 cd tutorial-sklearn-dslhc2015
