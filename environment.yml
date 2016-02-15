@@ -1,7 +1,7 @@
 name: sklearn-tutorial
 
 dependencies:
-  - anaconda=2.4
+  - anaconda>=2.4
   - python=3.5
   - numpy
   - scipy
