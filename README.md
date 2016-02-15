@@ -22,6 +22,6 @@ jupyter notebook
 ```
 
 ## Launch on Binder without installing anything!
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/glouppe/tutorial-sklearn-dslhc2015)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/glouppe/tutorial-scikit-learn)
 
 
