@@ -40,7 +40,9 @@ def plot_surface(model, X, y):
     plt.show()
 
 
-def plot_outlier_detector(clf, X, ground_truth, outliers_fraction, n_outliers):
+def plot_outlier_detector(clf, X, ground_truth):
+    n_outliers = (ground_truth == 0).sum()
+    outliers_fraction = 1. * n_outliers / len(ground_truth)
     xx, yy = np.meshgrid(np.linspace(-7, 7, 500), np.linspace(-7, 7, 500))
 
     y_pred = clf.decision_function(X).ravel()
