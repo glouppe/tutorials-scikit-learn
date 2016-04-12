@@ -63,5 +63,5 @@ def plot_outlier_detector(clf, X, ground_truth):
     c = plt.scatter(X[-n_outliers:, 0], X[-n_outliers:, 1], c='black')
     plt.legend(
         [a.collections[0], b, c],
-        ['learned decision function', 'true inliers', 'true outliers'])
+        ['Learned decision function', 'True inliers', 'True outliers'])
     plt.show()
