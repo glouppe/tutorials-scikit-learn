@@ -3,8 +3,7 @@
 - Tutorial on machine learning and Scikit-Learn (beginner level).
 - Tutorial on robust and calibrated estimators with Scikit-Learn (mid level)
 
-- Contact: <a href="https://twitter.com/glouppe">@glouppe</a>
-- BSD 3-clause license
+Contact: <a href="https://twitter.com/glouppe">@glouppe</a> | BSD 3-clause license
 
 ## Installation instructions
 
