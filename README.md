@@ -1,4 +1,4 @@
-# Scikit-Learn notebooks
+# Scikit-Learn tutorials
 
 - Tutorial on machine learning and Scikit-Learn (beginner level).
 - Tutorial on robust and calibrated estimators with Scikit-Learn (mid level)
