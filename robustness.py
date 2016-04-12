@@ -43,12 +43,14 @@ def plot_surface(model, X, y):
 def plot_outlier_detector(clf, X, ground_truth):
     n_outliers = (ground_truth == 0).sum()
     outliers_fraction = 1. * n_outliers / len(ground_truth)
-    xx, yy = np.meshgrid(np.linspace(-7, 7, 500), np.linspace(-7, 7, 500))
+    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    xx, yy = np.meshgrid(np.linspace(x_min, x_max, 500),
+                         np.linspace(y_min, y_max, 500))
 
     y_pred = clf.decision_function(X).ravel()
     threshold = stats.scoreatpercentile(y_pred, 100 * outliers_fraction)
     y_pred = y_pred > threshold
-    n_errors = (y_pred != ground_truth).sum()
 
     Z = clf.decision_function(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
@@ -62,8 +64,4 @@ def plot_outlier_detector(clf, X, ground_truth):
     plt.legend(
         [a.collections[0], b, c],
         ['learned decision function', 'true inliers', 'true outliers'])
-    plt.xlabel("errors: %d" % n_errors)
-    plt.xlim((-7, 7))
-    plt.ylim((-7, 7))
-
     plt.show()
