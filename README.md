@@ -1,7 +1,7 @@
 # Scikit-Learn tutorials
 
-- Tutorial on machine learning and Scikit-Learn (beginner level).
-- Tutorial on robust and calibrated estimators with Scikit-Learn (mid level)
+1. Tutorial on machine learning and Scikit-Learn (beginner level).
+2. Tutorial on robust and calibrated estimators with Scikit-Learn (mid level)
 
 Contact: <a href="https://twitter.com/glouppe">@glouppe</a> | BSD 3-clause license
 
