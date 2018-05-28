@@ -6,5 +6,4 @@ dependencies:
   - scipy
   - matplotlib
   - pandas
-  - pip:
-    - git+https://github.com/scikit-learn/scikit-learn.git#egg=sklearn[complete]
+  - scikit-learn
